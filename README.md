@@ -1,20 +1,49 @@
-# ReBotNet
-Real time video Video Restoration &amp; Enhancement Network
+# ReBotNet – Fast Real-Time Video Enhancement
 
-
-
-ReBotNET is a PyTorch-based deep recurrent network for video enhancement and restoration tasks, including denoising, deblurring, and super-resolution. It leverages temporal memory and spatio-temporal attention to produce smooth, consistent, and high-quality video frames across sequences.
+**Project:** Reproduction of the research paper [ReBotNet: Fast Real-time Video Enhancement (WACV 2025)](https://openaccess.thecvf.com/content/WACV2025/papers/Valanarasu_ReBotNet_Fast_Real-Time_Video_Enhancement_WACV_2025_paper.pdf)  
 
 ---
 
-## Key Features
-- Recurrent temporal connections for motion continuity and temporal consistency  
-- Multi-task support: denoising, deblurring, and video super-resolution  
-- PyTorch implementation with modular, research-ready code  
-- Config-driven training and inference setup  
-- Evaluation metrics: PSNR, SSIM, and temporal consistency  
-- Supports large model files via Git LFS (`.pth` checkpoints)
+## Overview
+This repository contains the **reproduction of the ReBotNet model** for real-time video restoration and enhancement. The project demonstrates high-quality enhancement of degraded video frames in real time using a transformer-based architecture.
 
 ---
+
+## Dataset
+- **Vimeo-90K dataset**  
+- **Sequence length:** 7 frames  
+- **Resolution:** 448 × 256  
+- **Preprocessing:** Applied custom degradations (blur, noise, compression) using the **BasicSR** library to simulate real-world video distortions.
+
+---
+
+## Implementation
+- **Model:** Reproduced using the **official architecture code** provided by the authors.  
+- **Framework:** PyTorch  
+- **Training environment:** Google Colab with **NVIDIA A100 GPU**  
+- **Inference:** Real-time frame processing with side-by-side original and enhanced display
+
+---
+
+## Evaluation Metrics
+- **PSNR:** Peak Signal-to-Noise Ratio  
+- **SSIM:** Structural Similarity Index  
+- **Latency:** Measured to verify real-time processing capability
+
+---
+
+## Features
+- Real-time enhancement of degraded videos  
+- Preprocessing pipeline for simulating realistic video distortions  
+- GPU-accelerated training and inference  
+- Reproducible results aligned with the original paper
+
+---
+
+## Usage
+1. Clone the repository:
+```bash
+git clone https://github.com/hanshanaweerakoon/ReBotNet---Fast-Real-time-Video-Enhancement.git
+
 
 
