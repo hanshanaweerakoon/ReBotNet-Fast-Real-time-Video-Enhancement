@@ -24,7 +24,9 @@ This repository contains the **reproduction of the ReBotNet model** for real-tim
 - **Inference:** Real-time frame processing with side-by-side original and enhanced display
 
 ---
-![Demo](demo.gif)
+## Output frame
+
+![Demo](https://github.com/user-attachments/assets/0accd257-4e0b-40be-8421-00d0b549fc4e)
 ---
 
 ## Evaluation Metrics
