@@ -30,6 +30,7 @@ This repository contains the **reproduction of the ReBotNet model** for real-tim
 
 https://github.com/user-attachments/assets/55490e39-e3ed-4a73-b0c5-5d81f39d425f
 
+![Demo](Demo.gif)
 
 
 ---
