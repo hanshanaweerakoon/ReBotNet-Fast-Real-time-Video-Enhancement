@@ -24,6 +24,8 @@ This repository contains the **reproduction of the ReBotNet model** for real-tim
 - **Inference:** Real-time frame processing with side-by-side original and enhanced display
 
 ---
+![Demo](demo.gif)
+---
 
 ## Evaluation Metrics
 - **PSNR:** Peak Signal-to-Noise Ratio  
