@@ -26,7 +26,8 @@ This repository contains the **reproduction of the ReBotNet model** for real-tim
 ---
 ## Output frame
 
-![Demo](https://github.com/user-attachments/assets/0accd257-4e0b-40be-8421-00d0b549fc4e)
+[Watch the demo video](https://github.com/username/repo-name/blob/main/demo.mp4)
+
 ---
 
 ## Evaluation Metrics
