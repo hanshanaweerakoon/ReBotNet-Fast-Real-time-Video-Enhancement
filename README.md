@@ -26,7 +26,11 @@ This repository contains the **reproduction of the ReBotNet model** for real-tim
 ---
 ## Output frame
 
-[Watch the demo video](https://github.com/hanshanaweerakoon/ReBotNet-Fast-Real-time-Video-Enhancement/blob/main/Demo.mp4)
+
+
+https://github.com/user-attachments/assets/55490e39-e3ed-4a73-b0c5-5d81f39d425f
+
+
 
 ---
 
